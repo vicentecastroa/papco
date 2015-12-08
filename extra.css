@@ -1,0 +1,92 @@
+
+body {
+    padding-top: 70px;
+    position: relative;
+}
+
+.navbar {
+    min-height: 90px;
+}
+
+.navbar-inverse { background-color: #A11D23}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #A11D23}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #A11D23}
+.navbar-inverse { background-image: none; }
+.navbar-inverse .navbar-brand { color: white; background-color: white}
+.navbar-inverse {border: hidden}
+.navbar-inverse .navbar-nav>li>a { color: #FFFFFF}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #A11D23; }
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+.navbar-inverse .navbar-brand:hover { color: #FFFFFF; background-color: white}
+.navbar-brand:active {color: #FFFFFF; background-color: white }
+
+
+.nav-content {
+    height: 90px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.navbar-brand:active{
+    height: 90px;
+    background-color: green;
+}
+
+#nav-boton1 {margin-top: 40px}
+#nav-boton2 {margin-top: 40px}
+#nav-boton3 {margin-top: 40px}
+
+.caja-logo {
+    background-color: white;
+}
+
+.portada {
+    background: url("./images/background_temp.jpg") no-repeat center fixed ;
+    background-size: cover;
+    padding-top: 17%;
+    padding-bottom: 20%;
+}
+
+.texto-portada {
+    color: white;
+    margin-left: 10%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 300%;
+}
+
+.titulo-seccion {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 20px;
+    padding-bottom: 30px;
+}
+
+.contenido-seccion {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.firma {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.img-responsive {
+    margin: auto;
+}
+
+.seccion {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#contacto {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
