@@ -8,6 +8,7 @@
     $('#nav-boton1').css({"margin-top":"0px", "font-size":"20px"});
     $('#nav-boton2').css({"margin-top":"0px", "font-size":"20px"});
     $('#nav-boton3').css({"margin-top":"0px", "font-size":"20px"});
+    $('#nav-boton4').css({"margin-top":"0px", "font-size":"20px"});
     $('.navbar').css("min-height","45px");
     $('.nav-content').css("height","50px");
     $('.navbar-brand').css("height","50px");

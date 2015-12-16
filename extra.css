@@ -34,9 +34,6 @@ body {
     height: 90px;
 }
 
-#nav-boton1 {margin-top: 40px}
-#nav-boton2 {margin-top: 40px}
-#nav-boton3 {margin-top: 40px}
 
 .caja-logo {
     background-color: white;
@@ -128,3 +125,27 @@ body {
 #logo-inicio {
     margin-bottom: 50px;
 }
+
+.boton{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: black;
+    padding: 6px;
+    background-color: #fcfcfc;
+    border-style: solid;
+    border-color: #A11D23;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.boton:hover{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
