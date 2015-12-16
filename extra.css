@@ -1,6 +1,6 @@
 
 body {
-    padding-top: 70px;
+    padding-top: 0px;
     position: relative;
 }
 
@@ -15,7 +15,7 @@ body {
 .navbar-inverse .navbar-brand { color: white; background-color: white}
 .navbar-inverse {border: hidden}
 .navbar-inverse .navbar-nav>li>a { color: #FFFFFF}
-.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #A11D23; }
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: white; text-decoration: underline;}
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
 .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
 .navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
@@ -32,7 +32,6 @@ body {
 }
 .navbar-brand:active{
     height: 90px;
-    background-color: green;
 }
 
 #nav-boton1 {margin-top: 40px}
@@ -44,25 +43,52 @@ body {
 }
 
 .portada {
-    background: url("./images/background_temp.jpg") no-repeat center fixed ;
+    background: url("images/background.png") no-repeat center fixed ;
     background-size: cover;
-    padding-top: 17%;
-    padding-bottom: 20%;
+    padding-top: 70px;
 }
 
 .texto-portada {
     color: white;
-    margin-left: 10%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-size: 300%;
 }
 
+.bajada-portada {
+    color: white;
+    padding-bottom: 6%;
+}
+
+.texto-prod{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+
+.texto-prod:hover{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.prod-portada {
+    padding-left: 0;
+    padding-right: 0;
+    background: #EBEBEB;
+    transition: all 1s ease;
+}
+
 .titulo-seccion {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 30px;
+    font-weight: 600;
+    font-size: 35px;
     margin: 20px;
     padding-bottom: 30px;
 }
@@ -89,4 +115,16 @@ body {
 #contacto {
     padding-top: 15%;
     padding-bottom: 15%;
+}
+
+.texto-servicio {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#logo-inicio {
+    margin-bottom: 50px;
 }
